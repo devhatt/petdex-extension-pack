@@ -1,0 +1,36 @@
+{
+ "name": "petdex-extension-pack",
+ "publisher": "DevHat",
+ "icon": "./fileicons/image/petdex.png",
+ "keywords": [
+  "ExtensionPack",
+  "DevHat",
+  "Hatter",
+  "Petdex",
+  "OpenSource",
+  "Community",
+  "Alecell",
+  "Nicoletti"
+ ],
+ "displayName": "PetdexExtensionPack",
+ "description": "Pacote de extensões da DevHat recomendadas para o Petdex",
+ "repository": {
+  "url": "https://github.com/hatcoders/PetDex-Extension-Pack"
+ },
+ "version": "0.0.4",
+ "engines": {
+  "vscode": "^1.83.0"
+ },
+ "categories": [
+  "Extension Packs"
+ ],
+ "extensionPack": [
+  "Jenkey2011.string-highlight",
+  "golang.go",
+  "eamodio.gitlens",
+  "wayou.vscode-todo-highlight",
+  "Gruntfuggly.todo-tree",
+  "dbaeumer.vscode-eslint",
+  "stylelint.vscode-stylelint"
+ ]
+}
